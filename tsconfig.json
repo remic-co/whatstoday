@@ -8,9 +8,8 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "paths": {
-      "@components/*": ["./client/components/*"],
-      "@utils/*": ["./client/utils/*"],
-      "@test/*": ["./client/test/*"]      
+      "@components/*": ["./src/components/*"],
+      "@utils/*": ["./src/utils/*"]
     },
     "preserveConstEnums": true,
     "removeComments": false,
