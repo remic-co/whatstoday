@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "paths": {
+      "@components/*": ["./client/components/*"],
+      "@utils/*": ["./client/utils/*"],
+      "@test/*": ["./client/test/*"]      
+    },
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "sourceMap": true
+  }
+}
